@@ -20,6 +20,6 @@ Always run the server before starting the client (there is a request in HOme pag
 
 ## Project structure
 
-├── server/ │ ├── src/ │ │ ├── index.ts │ │ └── routes.ts │ ├── .env │ ├── package.json │ └── tsconfig.json
+`├── server/ │ ├── src/ │ │ ├── index.ts │ │ └── routes.ts │ ├── .env │ ├── package.json │ └── tsconfig.json
 
-├── client/ │ ├── public/ │ ├── src/ │ │ ├── index.tsx │ │ ├── App.tsx │ │ ├── api/ │ │ │ └── axios.ts │ │ ├── components/ │ │ │ ├── ErrorFallback.tsx │ │ │ └── Home.tsx │ ├── index.html │ ├── package.json │ ├── tsconfig.json │ └── vite.config.ts
+├── client/ │ ├── public/ │ ├── src/ │ │ ├── index.tsx │ │ ├── App.tsx │ │ ├── api/ │ │ │ └── axios.ts │ │ ├── components/ │ │ │ ├── ErrorFallback.tsx │ │ │ └── Home.tsx │ ├── index.html │ ├── package.json │ ├── tsconfig.json │ └── vite.config.ts`
