@@ -42,4 +42,6 @@ Always run the server before starting the client (there is a request in HOme pag
 │ ├── index.html # HTML entry point
 │ ├── package.json # Frontend dependencies
 │ ├── tsconfig.json # TypeScript configuration
-│ └── vite.config.ts # Vite configuration<pre>
+│ └── vite.config.ts # Vite configuration
+|
+|── package.json # Adds commands to run both client and api at with the same command<pre>
