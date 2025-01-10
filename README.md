@@ -18,26 +18,8 @@ Always run the server before starting the client (there is a request in HOme pag
 - **`server/src/index.ts`**: Express server setup, handling API requests and serving the React application.
 - **`server/src/routes.ts`**: Defines API routes for the Express server.
 
-/Users/christina_milona/Projects/GameNight/
-├── server/
-│ ├── src/
-│ │ ├── index.ts
-│ │ └── routes.ts
-│ ├── .env
-│ ├── package.json
-│ ├── tsconfig.json
+## Project structure
 
-├── client/
-│ ├── public/
-│ ├── src/
-│ │ ├── index.tsx
-│ │ ├── App.tsx
-│ │ ├── api/
-│ │ │ └── axios.ts
-│ │ ├── components/
-│ │ │ ├── ErrorFallback.tsx
-│ │ │ ├── Home.tsx
-│ ├── index.html
-│ ├── package.json
-│ ├── tsconfig.json
-│ ├── vite.config.ts
+├── server/ │ ├── src/ │ │ ├── index.ts │ │ └── routes.ts │ ├── .env │ ├── package.json │ └── tsconfig.json
+
+├── client/ │ ├── public/ │ ├── src/ │ │ ├── index.tsx │ │ ├── App.tsx │ │ ├── api/ │ │ │ └── axios.ts │ │ ├── components/ │ │ │ ├── ErrorFallback.tsx │ │ │ └── Home.tsx │ ├── index.html │ ├── package.json │ ├── tsconfig.json │ └── vite.config.ts
