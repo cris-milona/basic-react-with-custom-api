@@ -20,7 +20,7 @@ Always run the server before starting the client (there is a request in HOme pag
 
 ## Project structure
 
-project-root
+<pre> project-root
 ├── server # Backend Node.js server/api
 │ ├── src
 │ │ ├── index.ts # Server entry point
@@ -42,4 +42,4 @@ project-root
 │ ├── index.html # HTML entry point
 │ ├── package.json # Frontend dependencies
 │ ├── tsconfig.json # TypeScript configuration
-│ └── vite.config.ts # Vite configuration
+│ └── vite.config.ts # Vite configuration<pre>
