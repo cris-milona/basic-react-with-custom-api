@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "clean": "rm -rf node_modules"
+    "clean": "rm -rf node_modules dist"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
