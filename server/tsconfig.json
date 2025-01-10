@@ -1,0 +1,15 @@
+// Specifies TypeScript compiler options,
+// including module resolution, JSX support,
+// and strict type checking.
+
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    // "sourceMap": true,
+    "rootDir": "./src"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "game-night-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "concurrently \"pnpm --prefix server install\" \"pnpm --prefix client install\"",
+    "dev": "concurrently \"pnpm --prefix server dev\" \"pnpm --prefix client dev\"",
+    "build": "concurrently \"pnpm --prefix server build\" \"pnpm --prefix client build\"",
+    "clean": "concurrently \"pnpm --prefix server clean\" \"pnpm --prefix client clean\""
+  },
+  "devDependencies": {
+    "concurrently": "9.1.2"
+  }
+}
